@@ -1,7 +1,36 @@
 {
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "gridfs": "^1.0.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.22"
-  }
+  },
+  "name": "social-media-project",
+  "description": "Social Media Website that lets you introduce yourself to the world online by exchanging the posts and feeds you wants..",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pw11-085/social-media-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pw11-085/social-media-project/issues"
+  },
+  "homepage": "https://github.com/pw11-085/social-media-project#readme"
 }
